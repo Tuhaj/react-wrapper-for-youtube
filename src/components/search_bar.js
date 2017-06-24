@@ -11,7 +11,7 @@ class SearchInput extends React.Component {
       <div>
         <input onChange={event => this.setState({term: event.target.value})}
                value={this.state.term}
-        ></input>
+        />
         <p>text of the input: {this.state.term}</p>
       </div>
     );
